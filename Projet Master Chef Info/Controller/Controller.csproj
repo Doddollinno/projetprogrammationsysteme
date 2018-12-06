@@ -43,8 +43,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BluePrint.cs" />
+    <Compile Include="Dimension.cs" />
+    <Compile Include="IStrategy.cs" />
+    <Compile Include="Main.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Strategy.cs" />
+    <Compile Include="StrategyChiefParty.cs" />
+    <Compile Include="StrategyChiefRank.cs" />
+    <Compile Include="StrategyCleaner.cs" />
+    <Compile Include="StrategyClient.cs" />
+    <Compile Include="StrategyComCui.cs" />
+    <Compile Include="StrategyCookChief.cs" />
+    <Compile Include="StrategyHost.cs" />
+    <Compile Include="StrategyRoomCom.cs" />
+    <Compile Include="StrategyWaiter.cs" />
+    <Compile Include="ThreadPool.cs" />
+    <Compile Include="TimeManager.cs" />
+    <Compile Include="Universe.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
