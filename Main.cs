@@ -1,3 +1,5 @@
 using System;
-public class Main {
+namespace Controller {
+  public class Main {
+  }
 }
