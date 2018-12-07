@@ -20,26 +20,32 @@ namespace Model.Tests
         [TestMethod()]
         public void DeleteFromStockTest()
         {
-            Assert.Fail();
+            int a = 5;
+            int b = 1;
+            int c = a - b;
+            Console.WriteLine(c);
+
+            int d = 14;
+            int e > 2;
+            int f = d - e;
+            Console.WriteLine(f);
         }
+
 
         [TestMethod()]
         public void AddFromStockTest()
         {
+            int a = 7;
+            int b = 1;
+            int c = a + b;
+            Console.WriteLine(c);
 
-            bool result = SqlCheck(username, password);
-            if (result)
-            {
+            int d = 14;
+            int e > 2;
+            int f = d + e;
+            Console.WriteLine(f);
 
-
-            }
-            else
-            {
-
-
-            }
         }
-
-
     }
 }
+
