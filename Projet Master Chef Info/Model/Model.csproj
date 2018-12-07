@@ -46,7 +46,7 @@
     <Compile Include="AbstractFixedActor.cs" />
     <Compile Include="actorFactory.cs" />
     <Compile Include="ActorGroup.cs" />
-    <Compile Include="BDDConnector.cs" />
+    <Compile Include="Model.Test.cs" />
     <Compile Include="CarriableFactory.cs" />
     <Compile Include="Class.cs" />
     <Compile Include="Class3.cs" />
