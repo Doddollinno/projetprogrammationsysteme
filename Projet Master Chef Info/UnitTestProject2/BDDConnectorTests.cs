@@ -16,6 +16,8 @@ namespace Model.Tests
         {
             Assert.Fail();
         }
+        /*Utiliser Assert.Fail() avec la doc présent sur stack overflow et trouver un moyen de récupérer la liste des ingrédients
+         dans le stock, et l'afficher, je n'ai pas encore trouver de solution pour cela*/
 
         [TestMethod()]
         public void DeleteFromStockTest()
@@ -44,6 +46,10 @@ namespace Model.Tests
             int e > 2;
             int f = d + e;
             Console.WriteLine(f);
+            /*Une fois que les tests sont passés, il faut assosier les bons noms, pour ajouter ou supprimer des ingrédients 
+             de la base de donné il faudra effectué un test quand la base de donnée sera remplie et connectée. Les tests devraient être
+            validée*/
+           
 
         }
     }
