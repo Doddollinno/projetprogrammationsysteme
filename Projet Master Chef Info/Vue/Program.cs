@@ -2,10 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Windows;
 using System.Windows.Forms;
+using System.Drawing.Drawing2D;
 
-namespace Vue // bonjour
+namespace view
 {
+
     static class Program
     {
         /// <summary>
@@ -13,10 +16,10 @@ namespace Vue // bonjour
         /// </summary>
         [STAThread]
         static void Main()
-        {
+       {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new salle());
         }
     }
 }

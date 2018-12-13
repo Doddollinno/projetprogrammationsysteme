@@ -8,18 +8,15 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Vue
+namespace view
 {
-    public partial class Form1 : Form
+    public partial class salle : Form
     {
-        public Form1()
+        public salle()
         {
             InitializeComponent();
+            cuisine kitchen = new cuisine();
+            kitchen.Show();
         }
-
-		private void Form1_Load(object sender, EventArgs e)
-		{
-
-		}
-	}
+    }
 }
