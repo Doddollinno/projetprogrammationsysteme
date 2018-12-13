@@ -1,17 +1,33 @@
 using System;
+using System.Data.Common;
+using MySql.Data.MySqlClient;
 namespace Model {
 	public class BDDConnector {
-		public connection Connect;
 
-		public list<ingrédient> GetAllStock() {
-			throw new System.Exception("Not implemented");
+		private static void MySqlConnection()
+		{
+			string connectionString = GetConnectionString();
+
+			using (MySqlConnection connection = new MySqlConnection())
+			{
+				connection.ConnectionString = connectionString;
+
+				connection.Open();
+
+				Console.WriteLine("State: {0}", connection.State);
+				Console.WriteLine("ConnectionString: {0}",
+					connection.ConnectionString);
+			}
 		}
-		public void DeleteFromStock() {
-			throw new System.Exception("Not implemented");
+
+		static private string GetConnectionString()
+		{
+			// To avoid storing the connection string in your code, 
+			// you can retrieve it from a configuration file.
+			return "Data Source=MSSQL1;Initial Catalog=AdventureWorks;"
+				+ "Integrated Security=true;";
 		}
-		private void AddToStock() {
-			throw new System.Exception("Not implemented");
-		}
+
 
 	}
 
