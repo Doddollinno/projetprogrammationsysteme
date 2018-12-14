@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-/* Cette classe mettra de determiner la position d'un personnage, et d'un objet. Modifier si nécéssire */
+/* Cette classe permettra de determiner et récupérer la position d'un personnage, ou d'un objet. Modifier si nécéssaire */
 
 namespace Model
     {
