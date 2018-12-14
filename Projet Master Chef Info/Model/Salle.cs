@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Model
+{
+    class Salle : ActorFactory
+
+    {
+        public override FixedActor CreateFixedActor()
+        {
+            return new maitrehotel();
+        }
+        public override MobileActor CreateMobileActor()
+        {
+            return new waiter();
+        }
+    }
+}

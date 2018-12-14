@@ -1,10 +1,12 @@
-using System;
-namespace Model {
-	public class FixedActor : AbstractFixedActor  {
-		public override void CallStrategy() {
-			throw new System.Exception("Not implemented");
-		}
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-	}
-
+namespace Model
+{
+    interface FixedActor
+    {
+    }
 }
