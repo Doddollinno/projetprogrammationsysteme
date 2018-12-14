@@ -75,7 +75,6 @@
     <Compile Include="recipeList.cs" />
     <Compile Include="Stage.cs" />
     <Compile Include="StageModel.cs" />
-    <Compile Include="Table.cs" />
     <Compile Include="Tool.cs" />
   </ItemGroup>
   <ItemGroup>
