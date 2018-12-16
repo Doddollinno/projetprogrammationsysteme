@@ -4,7 +4,7 @@ namespace Controller {
 		public BluePrint Plan;
 		public TimeManager Time;
 		public float DiffTime;
-		public Universe Universe;
+		public Universe Universes;
 
 	}
 

@@ -1,22 +1,22 @@
 using System;
+using System.Collections.Generic;
+using System.Threading;
+
 namespace Model {
 	public class MobileActor : IMobile , IActor  {
-		public Strategy strategy;
+		public Controller.Strategy strategy;
 		public String InvSize;
 		public Thread Thread;
 		public bool Occupied;
 		public IActor Target;
 		public Point Position;
-		public list<ICarriable> Items;
+		public List<ICarriable> Items;
 
 		public void CallStrategy() {
 			throw new System.Exception("Not implemented");
 		}
 		public void Move() {
-			throw new System.Exception("Not implemented");
-		}
-		public void Operation() {
-			throw new System.Exception("Not implemented");
+			
 		}
 
 	}

@@ -1,7 +1,9 @@
 using System;
+using System.Collections.Generic;
+
 namespace Model {
 	public class ActorGroup {
-		public list<MobileActor> Clients;
+		public List<MobileActor> Clients;
 
 	}
 

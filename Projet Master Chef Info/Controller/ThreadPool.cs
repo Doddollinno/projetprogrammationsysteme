@@ -1,7 +1,10 @@
 using System;
+using System.Collections.Concurrent;
+using System.Threading;
+
 namespace Controller {
 	public class ThreadPool {
-		public concurrentQueue<Thread> Pool;
+		public ConcurrentQueue<Thread> Pool;
 
 	}
 

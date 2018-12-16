@@ -48,8 +48,7 @@
     <Compile Include="ActorGroup.cs" />
     <Compile Include="BDDConnector.cs" />
     <Compile Include="CarriableFactory.cs" />
-    <Compile Include="Class.cs" />
-    <Compile Include="Class3.cs" />
+    <Compile Include="Client.cs" />
     <Compile Include="Counter.cs" />
     <Compile Include="Dish.cs" />
     <Compile Include="FixedActor.cs" />
@@ -73,6 +72,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Controller\Controller.csproj">
+      <Project>{85FBA375-C063-48BA-A280-67914E390B19}</Project>
+      <Name>Controller</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
