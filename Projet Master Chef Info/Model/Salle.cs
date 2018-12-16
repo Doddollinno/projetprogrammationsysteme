@@ -11,11 +11,15 @@ namespace Model
     {
         public override FixedActor CreateFixedActor()
         {
-            return new maitrehotel();
+            return new Maitrehotel();
         }
         public override MobileActor CreateMobileActor()
         {
             return new waiter();
         }
+		public override FixedActor CreateTable()
+		{
+			return new Table();
+		}
     }
 }

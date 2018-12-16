@@ -5,11 +5,11 @@ namespace Model {
     {
         public override FixedActor CreateFixedActor()
         {
-            return new cooker();
+            return new Chiefcooker();
         }
         public override MobileActor CreateMobileActor()
         {
-            return new waiter();
+            return new Cooker();
         }
     }
 
