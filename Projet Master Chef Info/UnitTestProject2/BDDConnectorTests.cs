@@ -22,9 +22,10 @@ namespace Model.Tests
         [TestMethod()]
         public void GetAllStockTest()
         {
-
+            /* A vérifier
             Command.CommandText = "UPDATE chambre_froide SET Quantite = Quantite-1 WHERE Nom= 'Crabe' ";
             Read = Command.ExecuteReader();
+            */
 
         }
 
@@ -36,9 +37,10 @@ namespace Model.Tests
             Command.CommandText = "UPDATE chambre_froide SET Quantite = Quantite-1 WHERE Nom= 'Crabe' ";
             Read = Command.ExecuteReader();
             Command.CommandText = "UPDATE chambre_froide SET Quantite = Quantite-4 WHERE Nom= 'Escargot' ";
-            Read = Command.ExecuteReader();
+            Read = Command.ExecuteReader(); 
 
         }
+        /*Cette méthode permet de supprimer de la BDD un élément présent et disponible qui sera utiliser*/
 
 
         [TestMethod()]
@@ -51,7 +53,9 @@ namespace Model.Tests
             Read = Command.ExecuteReader();
 
         }
+        /*Cette méthode permet d'ajouter à la BDD un nouvel élément */
 
+        /* Création des méthodes pour le matériel utilisé (à mettre ou non dans la BDD)
 
         [TestMethod()]
         public void AddMaterielFromStockTest()
@@ -70,7 +74,7 @@ namespace Model.Tests
 
 
         }
-
+        */
 
     }
 }
