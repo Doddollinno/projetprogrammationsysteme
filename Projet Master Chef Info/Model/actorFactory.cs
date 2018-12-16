@@ -4,6 +4,7 @@ namespace Model {
 
     {
         public abstract FixedActor CreateFixedActor();
+		public abstract FixedActor CreateTable();
         public abstract MobileActor CreateMobileActor();
     }
 
