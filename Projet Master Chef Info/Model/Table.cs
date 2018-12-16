@@ -1,9 +1,9 @@
 ﻿namespace Model
 {
-	internal class Table : FixedActor
+	public class Table : FixedActor
 	{
-		int Nmb_Place;
-		int Num_Table;
-		bool Dispo;
+		public int Nmb_Place;
+		public int Num_Table;
+		public bool Dispo;
 	}
 }
