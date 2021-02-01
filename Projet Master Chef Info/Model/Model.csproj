@@ -44,22 +44,24 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AbstractFixedActor.cs" />
-    <Compile Include="actorFactory.cs" />
+    <Compile Include="ActorFactory.cs" />
     <Compile Include="ActorGroup.cs" />
-    <Compile Include="BDDConnector.cs" />
+    <Compile Include="FixedActor.cs" />
+    <Compile Include="maitrehotel.cs" />
+    <Compile Include="MobileActor.cs" />
+    <Compile Include="Salle.cs" />
+    <Compile Include="Model.Test.cs" />
     <Compile Include="CarriableFactory.cs" />
     <Compile Include="Class.cs" />
-    <Compile Include="Class3.cs" />
+    <Compile Include="Cuisine.cs" />
     <Compile Include="Counter.cs" />
     <Compile Include="Dish.cs" />
-    <Compile Include="FixedActor.cs" />
     <Compile Include="IActor.cs" />
     <Compile Include="ICarriable.cs" />
     <Compile Include="IFixed.cs" />
     <Compile Include="IMobile.cs" />
     <Compile Include="Ingredient.cs" />
     <Compile Include="Menu.cs" />
-    <Compile Include="MobileActor.cs" />
     <Compile Include="Order.cs" />
     <Compile Include="Point.cs" />
     <Compile Include="Program.cs" />
